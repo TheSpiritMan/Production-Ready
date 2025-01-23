@@ -36,9 +36,9 @@
 ### Production ENV:
 - There are many factors that decides whether your application is production ready or not.
 
-#### Migration Ready:
-- Make sure your application can be deployed in many architecture environments.
-- Contanerized your application using Dockerfile.
+#### Portable
+- Make sure your application can be moved from one machine to another and can be deployed in many architecture environments.
+- Portable can be possible by contanerizing application into docker images. 
 
 #### Light Weight 
 - To make sure that your application is production ready, run `npm run build`. This command will generate production ready light weight artifact for next js application.
